@@ -48,6 +48,7 @@ int login();
 login();
 //giving option to the user for their choice
 b:
+// 	available options 
 cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t  HOSPITAL MANAGEMENT SYSTEM \n\n";	
 cout<<"\n\n\t\t\t\t\t\tPlease,  Choose from the following Options: \n\n";
 cout<<"\t\t\t\t\t\t _________________________________________________________________ \n";
@@ -264,6 +265,7 @@ int login(){
       cout << '*';
       ch = _getch();
    }
+// 	password checking or authentication
    if(pass == "shreya"){
       cout << "\n\n\t\t\t\t\t\t\t\tAccess Granted! \n";
       system("PAUSE");
